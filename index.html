@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Img-exercicio-lista/lista 2.png" alt="Lista de tarefas">
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <h2>Para adicionar uma tarefa, basta escrevê-la abaixo e, quando concluída, clicar sobre ela</h2>
+        <form>
+            <input type="text" id="novaTarefaIn" required placeholder="Adicione uma tarefa"/>
+            <button type="submit" id="adicionarTarefaB">Adicionar</button>
+        </form>
+        <ul id="tarefasUl">
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
